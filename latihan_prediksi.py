@@ -9,7 +9,7 @@ encoder.fit(y)
 model = load("model.joblib")
 
 # Input manual
-features = [5, 1.5, 4, 64, 2, 45, 3, 81, 30]
+features = [5, 1.5, 5, 0.5, 3, 0.37, 2, 85, 0.37]
 
 # Prediksi
 prediction = model.predict([features])
